@@ -1,0 +1,16 @@
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-child/
+ Description:  Accelerate Theme Child - Accelerate
+ Author:       Lisa Dodson
+ Author URI:   http://example.com
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+@import url('../accelerate-theme/style.css');
+
+body {
+    background: red
+}
