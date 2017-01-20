@@ -42,15 +42,14 @@ get_header(); ?>
                        <?php if('$image_1')  { ?>
                             <img src="<?php echo wp_get_attachment_image ($image_1, $size); ?>
                        <?php } ?>
-                       <?php if('$image_2') { ?>
-                            <img src="<?php echo wp_get_attachment_image ($image_2, $size); ?>
-                       <?php } ?> 
-                      <?php if('$image_3') { ?>
-                            <img src="<?php echo wp_get_attachment_image ($image_3, $size); ?>
+                       <?php if('$image_1')  { ?>
+                            <img src="<?php echo wp_get_attachment_image ($image_1, $size); ?>
+                       <?php } ?>
+                       <?php if('$image_1')  { ?>
+                            <img src="<?php echo wp_get_attachment_image ($image_1, $size); ?>
                        <?php } ?>
                     </div>
-            	
-                </article>
+            	    </article>
 			<?php endwhile; // end of the loop. ?>
 
 		</div><!-- #content -->
