@@ -130,3 +130,18 @@ h3 {
 	line-height: 1.0909090909;
     text-align: center;
 }
+
+#nf-field-4 {
+ /* Center the button */
+ margin: auto;
+ font-size: 18px;
+ background-color: #45ac9d;
+ border: 1px solid #45ac9d;
+ padding: 10px 10% 10px 10%;    /* Button size */
+ color: white;
+ float: right;
+}
+
+#nf-field-3 {
+    border: 1px solid #bfbfbf 
+}
