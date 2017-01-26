@@ -1,4 +1,4 @@
-/*
+    /*
  Theme Name:   Accelerate Theme Child
  Theme URI:    http://example.com/accelerate-child/
  Description:  Accelerate Theme Child - Accelerate
@@ -13,7 +13,7 @@
 
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
-    }
+ }
 
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
@@ -144,4 +144,146 @@ h3 {
 
 #nf-field-3 {
     border: 1px solid #bfbfbf 
+}
+/**About Page Styles **/
+
+.about-page {
+    height: 200px;
+}
+
+.site-content-about {
+    color: white;
+    font-size: 28px;
+    padding: 0 30% 0 30%;
+}
+
+.div-about-row {
+    display: table-row;
+    width: auto;
+    height: 20px;
+}
+
+.div-about-cell {
+    display: block;
+    width: 50%;
+}
+
+.about-image-left {
+    float: left;
+    padding-left: 27%;
+    padding-top: 25px;
+}
+
+.about-content-right {
+    display: block;
+    float: right;
+    width: 500px;
+    margin-right: 20%;
+}
+
+.about-image-right {
+    float: right;
+    padding-right: 25%;
+    padding-top: 25px;
+}
+
+.about-content-left {
+    display: block;
+    float: left;
+    width: 500px;
+    margin-left: 25%;
+}
+
+.about-content-left-d {
+    clear: both;
+    display: block;
+    float: left;
+    width: 500px;
+    margin-left: 25%;
+    margin-top: 30px;
+    margin: 36px 0 50px 25%;
+
+ }
+
+.about-content-left-d h5{
+	font-weight: 500;
+	font: 17px/1.65 'open sans', Arial, sans-serif;
+}
+
+.about-content-right h5{
+	font-weight: 500;
+	font: 17px/1.65 'open sans', Arial, sans-serif;
+}
+
+.about-content-left h5{
+	font-weight: 500;
+	font: 17px/1.65 'open sans', Arial, sans-serif;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.contact-footer-row {
+    width: 960px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.contact-footer-a {
+    display: block;
+    width: 50%;
+    margin-left: 20%;
+    height:auto;
+    align-content: left;
+}
+
+.contact-footer-b {
+    display: block;
+    width: 50%;
+    margin-right: 20%;
+    height: auto;
+
+}
+
+.button  {
+ /* Center the button */
+ margin: auto;
+ font-size: 18px;
+ background-color: #45ac9d;
+ border: 1px solid #45ac9d;
+ padding: 10px 10% 10px 10%;    /* Button size */
+ color: white;
+ float: left;
+}
+
+/* 404 Page styles */
+
+.lost-body {
+    background-color: #45ac9d;
+	color: #fff;
+	font: 100% 'Lato', sans-serif;
+	font-size: 1.8rem;
+	font-weight: 300;
+}
+
+.lost-header {
+    text-align: center; 
+    font-size: 13.0rem;
+    font-weight: 700;
+    margin: 2% 0 2% 0;
+    text-shadow: 0px 3px 0px #7f8c8d;
+}
+
+.lost-error {
+    margin: -70px 0 2% 41%;
+    font-size: 7.4rem;
+    text-shadow: 0px 3px 0px #7f8c8d;
+    font-weight: 100;
 }
