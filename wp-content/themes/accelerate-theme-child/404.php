@@ -21,7 +21,7 @@
     </article>
     <article>
         <p><center>Did you get lost? You're not in the right place.</center></p>
-        <p><center>Selecting a page from the navigation bar above should get back on the right path</center></p>
+        <p><center>Selecting a page from the navigation bar above should get you back on the right path.</center></p>
     </article>
 
 </section>    
