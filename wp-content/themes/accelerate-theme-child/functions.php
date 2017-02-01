@@ -63,5 +63,16 @@ function accelerate_theme_child_widget_init() {
 	    'after_title' => '</h3>',
 	) );
 	
+    
+	register_sidebar( array(
+		'name'          => __( 'Blog page sidebar', 'accelerate-theme-child' ),
+		'id'            => 'mc4wp_form_widget-2',
+		'description'   => __( 'Appears on the page containing all blog posts.', 'accelerate-theme-child' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+
 }
 add_action( 'widgets_init', 'accelerate_theme_child_widget_init' );
